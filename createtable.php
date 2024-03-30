@@ -3,7 +3,7 @@
  $host = "tcp:web-mysql-server.mysql.database.azure.com";
  $user = "sgdvkpajsv";
  $pwd = "4RJ61113SP3T3W0L$";
- $db = "mydb";
+ $db = "registration";
  try{
  	$conn = new PDO( "sqlsrv:Server= $host ; Database = $db ", $user, $pwd);
  	$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
