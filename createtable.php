@@ -1,8 +1,8 @@
  <?php
  // DB connection info
- $host = "tcp:web-mysql-server.mysql.database.azure.com";
- $user = "sgdvkpajsv";
- $pwd = "4RJ61113SP3T3W0L$";
+ $host = "appdb.mysql.database.azure.com";
+ $user = "sweety";
+ $pwd = "Mahale@23";
  $db = "registration";
  try{
  	$conn = new PDO( "sqlsrv:Server= $host ; Database = $db ", $user, $pwd);
