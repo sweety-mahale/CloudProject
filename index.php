@@ -24,9 +24,9 @@
        <input type="submit" name="submit" value="Submit" />
  </form>
  <?php
-    $host = "tcp:web-mysql-server.mysql.database.azure.com";
- $user = "sgdvkpajsv";
- $pwd = "4RJ61113SP3T3W0L$";
+    $host = "appdb.mysql.database.azure.com";
+ $user = "sweety";
+ $pwd = "Mahale@23";
  $db = "registration";
  // Connect to database.
  try {
